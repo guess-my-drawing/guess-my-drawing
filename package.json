@@ -1,0 +1,30 @@
+{
+  "name": "gmd_front",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "@prisma/client": "^7.0.1",
+    "@supabase/ssr": "^0.8.0",
+    "@supabase/supabase-js": "^2.86.0",
+    "fabric": "^6.9.0",
+    "framer-motion": "^12.23.25",
+    "lodash": "^4.17.21",
+    "prisma": "^7.0.1",
+    "zustand": "^5.0.9"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.17.21",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "babel-plugin-react-compiler": "^1.0.0",
+    "eslint": "^9",
+    "typescript": "^5"
+  }
+}
