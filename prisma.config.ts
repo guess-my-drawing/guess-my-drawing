@@ -13,7 +13,9 @@ export default defineConfig({
     path: "prisma/migrations",
   },
   datasource: {
-    url: env("DATABASE_URL"),
+    // db pull/introspection은 direct connection이 필요
+    // Supabase pooler (6543)는 PgBouncer이므로 direct URL (5432) 사용
+    url: env("DIRECT_URL"),
     directUrl: process.env.DIRECT_URL,
   },
 });
