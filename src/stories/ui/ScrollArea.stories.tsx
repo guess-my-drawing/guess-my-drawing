@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from "@storybook/nextjs-vite";
-import { expect, userEvent, within } from "storybook/test";
+import { expect, within } from "storybook/test";
 import { ScrollArea, ScrollBar } from "@/components/ui/scroll-area";
 
 const meta: Meta<typeof ScrollArea> = {

@@ -3,7 +3,6 @@ import { expect, userEvent, within } from "storybook/test";
 import { Label } from "@/components/ui/label";
 import { Input } from "@/components/ui/input";
 import { Switch } from "@/components/ui/switch";
-import { Checkbox } from "@/components/ui/checkbox";
 
 const meta: Meta<typeof Label> = {
   title: "UI/Label",
